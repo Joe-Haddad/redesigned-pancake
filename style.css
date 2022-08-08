@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+body {
+background: #1c0508;
+color: white;
+display: flex;
+flex-flow: wrap;
+flex-direction: column;
+user-select: none;
+scroll-behavior: smooth;
+text-align: center;
+justify-content: center;
+align-content: center;
+		font-family: 'Ubuntu', sans-serif;
+}
+
+img {
+		width: 100%;
+		height: auto;
+		border-radius: 10px;
+}
+
+p {
+		font-size: 1.25rem;
+}
+
+.calcSections {
+gap: 0px 10px;
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-content: center;
+		margin: auto;
+		border-radius: 4px;
+}
+
+.addition {
+		width: 20%;
+		height: auto;
+		background: grey;
+		border-radius: 5px;
+		transform: border-radius 1s border 1s;
+}
+.addition:active {
+		border-radius: 10px;
+		border: 2px groove orange;
+}
+
+.substraction {
+		width: 20%;
+		height: auto;
+		background: #da6300;
+		border-radius: 5px;
+}
+.multiplication {
+		width: 20%;
+		height: auto;
+		background: #790005;
+		border-radius: 5px;
+}
+.division {
+		width: 20%;
+		height: auto;
+		background: green;
+		border-radius: 5px;
+}
